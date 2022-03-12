@@ -5,7 +5,7 @@ This repo provides a demonstration of how to execute a custom AWS CLI command fr
 Make sure your account has the ability to configure AWS Firewall Manager.  Follow the steps defined in the blog post [here](https://aws.amazon.com/blogs/security/use-aws-firewall-manager-to-deploy-protection-at-scale-in-aws-organizations/).
 
 ## AWS CLI Test
-Once you have confirmed the necessary setup to access and configure AWS Firewall Manager we can test it via the AWS CLI.  We will run a command to create an Application List.  Then we will remove it.  If both steps are successful you can continue on to the Terraform Init+Apply.
+Once you have confirmed the necessary setup to access and configure AWS Firewall Manager we can test it via the AWS CLI.  We will run a command to create an Application List.  Then we will remove it.  If both steps are successful you can continue on to the Terraform Example section below.
 
 1. Using the AWS CLI create the AWS Firewall Manager Application List.  Verify the Application List was created from the AWS Console before continuing on to the following steps.
 
@@ -48,7 +48,7 @@ terraform destroy
 ```
 
 ## Questions & Comments
-If you have any questions or comments on the demo please reach out to me [Devin Lewis - AWS Solutions Architect](mailto:lwdvin@amazon.com?subject=AWS/Terraform%20FMS%20Create%20Application%20List%20%40aws-terraform-fms-put-apps-list%41)
+If you have any questions or comments on the demo please reach out to me [Devin Lewis - AWS Solutions Architect](mailto:lwdvin@amazon.com?subject=AWS%2FTerraform%20FMS%20Create%20Application%20List%20%28aws-terraform-fms-put-apps-list%29)
 
 Of if you would like to provide personal feedback to me please click [Here](https://feedback.aws.amazon.com/?ea=lwdvin&fn=Devin&ln=Lewis)
 
